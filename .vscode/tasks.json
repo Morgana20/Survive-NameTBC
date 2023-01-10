@@ -1,0 +1,1177 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Surviving_Github Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Test",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Test",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Test",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Shipping",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Shipping",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Win64",
+				"Shipping",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_Github Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_Github Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_Github Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Test",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_Github Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Test",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Test",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Shipping",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Build",
+				"Surviving_Github Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-Project=D:/unreal projects/Surviving_Github/Surviving_Github.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Surviving_Github Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Shipping",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_Github Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_Github Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_Github",
+				"Android",
+				"Shipping",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"Debug",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Surviving_GithubEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		},
+		{
+			"label": "Surviving_GithubEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Surviving_GithubEditor",
+				"Win64",
+				"Development",
+				"D:\\unreal projects\\Surviving_Github\\Surviving_Github.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\UE_5.1"
+			}
+		}
+	]
+}

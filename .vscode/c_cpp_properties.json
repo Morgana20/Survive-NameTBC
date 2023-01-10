@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Surviving_GithubEditor Editor Win64 Development (Surviving_Github)",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\unreal projects\\Surviving_Github\\.vscode\\compileCommands_Surviving_Github.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\unreal projects\\Surviving_Github\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

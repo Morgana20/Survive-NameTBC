@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\unreal projects\\Surviving_Github\\Source\\Surviving_Github\\Surviving_Github.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Surviving_Github\\.vscode\\compileCommands_Surviving_Github\\Surviving_Github.255.rsp"
+		],
+		"directory": "C:\\Program Files (x86)\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Surviving_Github\\Source\\Surviving_Github\\Surviving_Github.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Surviving_Github\\.vscode\\compileCommands_Surviving_Github\\Surviving_Github.255.rsp"
+		],
+		"directory": "C:\\Program Files (x86)\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Surviving_Github\\Source\\Surviving_Github\\Surviving_Github.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Surviving_Github\\.vscode\\compileCommands_Surviving_Github\\Surviving_Github.255.rsp"
+		],
+		"directory": "C:\\Program Files (x86)\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Surviving_Github\\Source\\Surviving_Github\\Surviving_GithubGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Surviving_Github\\.vscode\\compileCommands_Surviving_Github\\Surviving_Github.255.rsp"
+		],
+		"directory": "C:\\Program Files (x86)\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Surviving_Github\\Source\\Surviving_Github\\Surviving_GithubGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Surviving_Github\\.vscode\\compileCommands_Surviving_Github\\Surviving_Github.255.rsp"
+		],
+		"directory": "C:\\Program Files (x86)\\UE_5.1\\Engine\\Source"
+	}
+]
